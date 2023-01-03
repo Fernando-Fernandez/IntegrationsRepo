@@ -1,0 +1,29 @@
+_id: req_8c4aa0f5530846079818b87278bba83e
+type: Request
+parentId: fld_f859042d27e34b44b9ff5dc50a8b3fd0
+modified: 1665078871368
+created: 1664918721422
+url: "
+  https://dw.sunbeltmh.com/sunbelt.svc/Customers?$top=1&$count=true&$select=Add\
+  ress,BillTo,City,EMail,Name,Number,ParentCompany,Phone,Salesman1,Salesman2,St\
+  ate,Terms,ZipCode"
+name: ODATA 3
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: sunbelt2@kelleyaustin.com
+  password: rY38hmXesC4FUVw
+metaSortKey: -1664998468591.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,42 @@
+_id: req_48deeb33400d400792456606ea06323e
+type: Request
+parentId: wrk_66e8fec8547845548ff08f5a646d390e
+modified: 1666204082665
+created: 1666203555000
+url: https://lshlimak-220904-434-demo.lightning.force.com/voicecalls
+name: Einstein Conversation Insight attempt
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_7b98303e14714e09aced44ba00dad305
+      name: recordId
+      value: 0018d00000JaJRxAAN
+      description: ""
+    - id: pair_350dc719605d464e82251e9ee46960f8
+      name: userChannel
+      value: "0"
+      description: ""
+    - id: pair_1683394cdf1940fab464329e547b5e3f
+      name: recordingFormat
+      value: mp3
+      description: ""
+    - id: pair_104cf169af064dea95ef4df9c16e923b
+      name: userId
+      value: 0058d0000032ozvAAA
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_6f6dc5bf620441d8bd6b5ebb3f221f47
+authentication: {}
+metaSortKey: -1666203555000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

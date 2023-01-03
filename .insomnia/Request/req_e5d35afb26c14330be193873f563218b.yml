@@ -1,0 +1,21 @@
+_id: req_e5d35afb26c14330be193873f563218b
+type: Request
+parentId: fld_1b4881633ac149e7b7b5f722dfe3eb1b
+modified: 1671648518283
+created: 1671648365326
+url: https://demandops.mytensoft.com/API/rest/v2/{CompanyCode}/Quotes?BusinessCode={BusinessCode}&QuoteDocNumber={QuoteDocNumber}&$top=100&$skip=0
+name: Get Quotes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671648365326
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

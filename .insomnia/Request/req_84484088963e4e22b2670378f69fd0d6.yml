@@ -1,0 +1,21 @@
+_id: req_84484088963e4e22b2670378f69fd0d6
+type: Request
+parentId: fld_f859042d27e34b44b9ff5dc50a8b3fd0
+modified: 1665078869968
+created: 1664918853383
+url: https://dw.sunbeltmh.com/sunbelt.svc
+name: ODATA 4
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664998468641.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

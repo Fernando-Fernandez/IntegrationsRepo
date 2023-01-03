@@ -1,0 +1,148 @@
+_id: req_6f5c4bf7a11c45898aeb785fc97c3e81
+type: Request
+parentId: fld_1b4881633ac149e7b7b5f722dfe3eb1b
+modified: 1671648354717
+created: 1671647976278
+url: https://demandops.mytensoft.com/API/rest/v2/{CompanyCode}/Quotes
+name: Send Quote
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Id": 123456789012345667,
+    	"QuoteDocNumber": "",
+    	"ExternalDocNumber": "",
+    	"DocDate": "2014-12-31",
+    	"ExpirationDate": "2014-12-31",
+    	"IsOnHold": true,
+    	"OpportunityNumber": "",
+    	"QuoteType": "",
+    	"Probability": 0,
+    	"Notes": "",
+      "Business": {
+        "Id": 1234567891234567,
+        "BusinessCode": "string",
+        "BusinessName": "string"
+      },
+      "EndCustomer": {
+        "Id": 1234567891234567,
+        "BusinessCode": "string",
+        "BusinessName": "string"
+      },
+      "BillToBusiness": {
+        "Id": 1234567891234567,
+        "BusinessCode": "string",
+        "BusinessName": "string"
+      },
+      "BillToBusinessAddress": {
+        "Id": 1234567891234567,
+        "AddressCode": "string",
+        "AddressDescription": "string"
+      },
+      "HoldStatus": {
+        "Id": 1234567891234567,
+        "HoldStatusCode": "string",
+        "HoldStatusDescription": "string"
+      },
+      "Currency": {
+        "Id": 0,
+        "CurrencyCode": "string",
+        "CurrencySymbol": "string"
+      },
+      "SalesStage": {
+        "Id": 1234567891234567,
+        "SalesStage": "string",
+        "SalesStageDescription": "string"
+      },
+      "SalesContact": {
+        "Id": 1234567891234567,
+        "ContactCode": "string",
+        "FirstName": "string",
+        "LastName": "string",
+        "FullName": "string"
+      },
+      "CompanyContact": {
+        "Id": 1234567891234567,
+        "ContactCode": "string",
+        "FirstName": "string",
+        "LastName": "string",
+        "FullName": "string"
+      },
+      "BillToContact": {
+        "Id": 1234567891234567,
+        "ContactCode": "string",
+        "FirstName": "string",
+        "LastName": "string",
+        "FullName": "string"
+      },
+      "PaymentTerms": {
+        "Id": 1234567891234567,
+        "PaymentTerms": "string",
+        "PaymentTermsDescription": "string"
+      },
+      "ShippingTerms": {
+        "Id": "string",
+        "IncotermsDescription": "string"
+      },
+      "ShippingTermsCode": "string",
+      "QuoteLines": [
+        {
+          "Id": 1234567891234567,
+          "LineNumber": 0,
+          "Quantity": 0.1,
+          "CancelQuantity": 0.1,
+          "MinimumQuantity": 0.1,
+          "UnitPrice": 0.1,
+          "Markdown": 0.1,
+          "IsOnHold": true,
+          "LineTotal": 0.1,
+          "IsEligibleForRebates": true,
+          "Notes": "string",
+          "PartRef": {
+            "Id": 1234567891234567,
+            "PartNumber": "string",
+            "PartDescription": "string"
+          },
+          "MarketingPartRef": {
+            "Id": 1234567891234567,
+            "MarketingPartNumber": "string",
+            "MarketingPartDescription": "string"
+          },
+          "CustomerPartRef": {
+            "Id": 1234567891234567,
+            "CustomerPartNumber": "string",
+            "CustomerPartDescription": "string"
+          },
+          "UnitOfMeasureRef": {
+            "Id": 1234567891234567,
+            "UnitOfMeasureCode": "string",
+            "UnitOfMeasureDescription": "string"
+          },
+          "PriceListRef": {
+            "Id": 1234567891234567,
+            "PriceListCode": "string",
+            "PriceListDescription": "string"
+          },
+          "HoldStatusRef": {
+            "Id": 1234567891234567,
+            "HoldStatusCode": "string",
+            "HoldStatusDescription": "string"
+          }
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671647976278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

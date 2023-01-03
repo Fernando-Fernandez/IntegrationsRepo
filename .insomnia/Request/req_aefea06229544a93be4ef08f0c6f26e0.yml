@@ -1,0 +1,26 @@
+_id: req_aefea06229544a93be4ef08f0c6f26e0
+type: Request
+parentId: fld_6bbf82503baa4503ba4dcf74252a441f
+modified: 1665094487363
+created: 1664813616687
+url: https://hooks.slack.com/services/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
+name: Slack webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"text": "test123"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_efa019b7df184d998ac90aab4143b9c0
+authentication: {}
+metaSortKey: -1664807404421
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

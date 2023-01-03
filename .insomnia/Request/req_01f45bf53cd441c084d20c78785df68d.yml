@@ -1,0 +1,25 @@
+_id: req_01f45bf53cd441c084d20c78785df68d
+type: Request
+parentId: fld_f430c72c9dc542d5887d2ec0dae489d0
+modified: 1671118334357
+created: 1670529168447
+url: https://dw.sunbeltmh.com/Equipment?%24top=20000&%24filter=Dept%20eq%20%27New%20Equipment%27%20and%20Model%20eq%20%27CF50LP%27&%24count=true&%24select=AssetName%2CMake%2CSerialNo%2CShipTo%2CUnitNo
+name: New Equipment CF50LP
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  disabled: false
+  username: Sunbelt\SalesforceConnect
+  password: DataTranSF2022#!
+metaSortKey: -1666225277983.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

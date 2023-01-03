@@ -1,0 +1,64 @@
+_id: req_064068d2fcb1458ba8b1764d5c647a99
+type: Request
+parentId: fld_6bbf82503baa4503ba4dcf74252a441f
+modified: 1665094497874
+created: 1664978309996
+url: https://webhook.site/9fa83f44-7758-48ea-b6ae-a7764ea26119/1
+name: POST to Test webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"payment": {
+    		"totalAmt": 1
+    		, "id": "1"
+    		, "customer": {
+    			"name": "ABC Co"
+    			, "value": "123"
+    		}
+    		, "txnDate": "2022-10-03"
+    		, "line": [
+    			{
+    				"amount": 1
+    				, "linkedTxn": [
+    					{
+    						"txnId": "1"
+    						, "txnType": "X"
+    					}
+    				]
+    			}
+    		]
+    	}
+    	, "eventNotifications": [
+    		{
+    			"dataChangeEvent": {
+    				"entities": [
+    					{
+    						"name": "Payment"
+    						, "id": "1"
+    					}
+    				]
+    			}
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_64585508897540278c2aa1c2e6473e7d
+  - id: pair_c944fa924aa34c73b8ebcc2b5be45608
+    name: intuit-signature
+    value: h10FuMatfUBnGy7WjrfzmSBY9+0sHmPoaIX+Xk/VCsM=
+    description: ""
+authentication: {}
+metaSortKey: -1664363944334.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

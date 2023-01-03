@@ -1,0 +1,52 @@
+_id: req_998c1651c4eb4598b32cff857b2f17b5
+type: Request
+parentId: fld_77864fc301024aa9ae4e5e2df4330e51
+modified: 1665416894897
+created: 1664553793838
+url: https://partial-50state.cs61.force.com/qbo/services/apexrest/webhooknotification/
+name: Salesforce Webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"eventNotifications": [
+    		{
+    			"realmId": "4620816365244965750",
+    			"dataChangeEvent": {
+    				"entities": [
+    					{
+    						"name": "Payment",
+    						"id": "1",
+    						"operation": "Update",
+    						"lastUpdated": "2022-09-26T10:52:30.000Z"
+    					}
+    				]
+    			}
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json; charset=UTF-8
+    id: pair_0cec89d5e3204114915ec83332490404
+  - id: pair_f39c8a73e29e482dae3d4280c6f01e43
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_b23d91aac29648c5bcef7e6db0e0ed74
+    name: intuit-signature
+    value: qZmLKCmd2909Iq9lUbEnmBmtaxvRIFdKwpxKcmC76u4=
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1664216757760
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

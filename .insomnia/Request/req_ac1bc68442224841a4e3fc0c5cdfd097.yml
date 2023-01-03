@@ -1,0 +1,28 @@
+_id: req_ac1bc68442224841a4e3fc0c5cdfd097
+type: Request
+parentId: fld_77864fc301024aa9ae4e5e2df4330e51
+modified: 1665441463628
+created: 1665441437536
+url: https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365247530660/query?query=select%20*%20from%20RefundReceipt%20where%20Id=%27184%27&minorversion=65
+name: QuickBooks query Refund Receipt by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ebf855a01dde41a8a333329e9c336950
+    name: External Credential Type
+    value: EXTERNAL
+    description: ""
+    disabled: true
+authentication:
+  type: oauth2
+  grantType: authorization_code
+metaSortKey: -1664216757460
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

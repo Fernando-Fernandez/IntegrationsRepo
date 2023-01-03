@@ -1,0 +1,21 @@
+_id: req_c1a9eec384cb4af19bdcd63dbc78dbfb
+type: Request
+parentId: fld_f859042d27e34b44b9ff5dc50a8b3fd0
+modified: 1665078868387
+created: 1664918141250
+url: https://12.193.165.45/customer.svc
+name: ODATA 2
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664998468691.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

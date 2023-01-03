@@ -1,0 +1,25 @@
+_id: req_26da316f7c4b49008654c24c6b238481
+type: Request
+parentId: fld_6bbf82503baa4503ba4dcf74252a441f
+modified: 1664992478057
+created: 1664992084988
+url: https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365244965750/reports/TransactionList?start_date=2016-06-01&end_date=2022-12-31&payment_method=Check&columns=doc_num,name,account_name,tracking_num,tx_date,txn_type,pmt_mthd,subt_nat_home_amount,PaymentRefNum&minorversion=65
+name: "Query #2 Transactions in QuickBooks "
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  clientId: AB1wZgdbd6fIIJ3vEMVHClav4itG6nsHs492oDdiKXvKlYtcQi
+  clientSecret: 1wGD49XOmyoPwNMlVNcS8kT7bXErykVklS8y0mJz
+metaSortKey: -1664806454214
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

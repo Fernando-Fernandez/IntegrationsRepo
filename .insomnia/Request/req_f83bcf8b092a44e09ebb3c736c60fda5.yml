@@ -1,0 +1,32 @@
+_id: req_f83bcf8b092a44e09ebb3c736c60fda5
+type: Request
+parentId: fld_77864fc301024aa9ae4e5e2df4330e51
+modified: 1665760068142
+created: 1665420331365
+url: https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365244965750/query?query=select%20TotalAmt,DocNumber%20from%20Purchase%20where%20DocNumber=%27176%27&minorversion=65
+name: QuickBooks query Expenses
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ebf855a01dde41a8a333329e9c336950
+    name: External Credential Type
+    value: EXTERNAL
+    description: ""
+    disabled: true
+  - id: pair_6b9ecf2f741c4b1385566a95a9311cba
+    name: Content-type
+    value: application/json
+    description: ""
+authentication:
+  type: oauth2
+  grantType: authorization_code
+metaSortKey: -1664216757610
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

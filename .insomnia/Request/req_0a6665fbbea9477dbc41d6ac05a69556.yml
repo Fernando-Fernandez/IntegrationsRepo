@@ -1,0 +1,28 @@
+_id: req_0a6665fbbea9477dbc41d6ac05a69556
+type: Request
+parentId: fld_77864fc301024aa9ae4e5e2df4330e51
+modified: 1665760191177
+created: 1665759831053
+url: https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365244965750/purchase/176?minorversion=65
+name: QuickBooks read Expenses
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ebf855a01dde41a8a333329e9c336950
+    name: External Credential Type
+    value: EXTERNAL
+    description: ""
+    disabled: true
+authentication:
+  type: oauth2
+  grantType: authorization_code
+metaSortKey: -1664216757585
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_cb2b0ca19ea8441189d524fad33309c8
+type: Request
+parentId: fld_b834a44b1ffd4a84a2281b23d528893b
+modified: 1671752310311
+created: 1667333060123
+url: https://api.assemblyai.com/v2/transcript
+name: 2 - Assembly.AI Transcript Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"audio_url": "{% response 'body', 'req_8853e2141dbd48709f4660529a0b8401', 'b64::JC51cGxvYWRfdXJs::46b', 'never', 60 %}"
+    	, "speaker_labels": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bb2e28bcd76d4f13b9429aa1e67a94db
+  - id: pair_9b0b3a9d575141f0bec9ebc236ca03af
+    name: Authorization
+    value: 1e852ce61a5347c8a2ffdd3bc81e4a71
+    description: ""
+authentication: {}
+metaSortKey: -1666854919290
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

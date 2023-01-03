@@ -1,0 +1,29 @@
+_id: req_4ddaac387283487eabd548cebc326238
+type: Request
+parentId: fld_6cc2941e5f8b4764ac3a6ab363112734
+modified: 1669678725754
+created: 1667486524976
+url: https://api.deepgram.com/v1/listen?punctuate=true&model=general&language=en&tier=enhanced&utterances=true&diarize=true
+name: Transcribe File Upload
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /Users/kafernandofernandez/Downloads/Deeto2.mp3
+parameters: []
+headers:
+  - id: pair_3ef5553d3f184aaa97a549ccaa68a289
+    name: Authorization
+    value: Token a3daacb32c44041134172abc2eb016f92977a58a
+    description: ""
+  - name: Content-Type
+    value: audio/mpeg
+authentication: {}
+metaSortKey: -1667373047548.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

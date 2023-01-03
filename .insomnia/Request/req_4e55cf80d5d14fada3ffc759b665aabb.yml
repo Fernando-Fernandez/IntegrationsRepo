@@ -1,0 +1,35 @@
+_id: req_4e55cf80d5d14fada3ffc759b665aabb
+type: Request
+parentId: fld_d97d91ba554f47bfaa4f5564ed0f598a
+modified: 1671752319220
+created: 1671751742366
+url: https://ftfniur-nzb25691.snowflakecomputing.com/api/v2/statements/{%
+  response 'body', 'req_cf0f3ccab88f4ca2ab5b802cef3ace27',
+  'b64::JC5zdGF0ZW1lbnRIYW5kbGU=::46b', 'never', 60 %}
+name: Check Query Results if asynchronous
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_db4dc4eb7851479f91d9e4855128d737
+    name: X-Snowflake-Authorization-Token-Type
+    value: KEYPAIR_JWT
+    description: ""
+  - id: pair_a8a3229d470a423abc50e4f613615ee3
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGVEZOSVVSLU5aQjI1NjkxLkZFUk5BTkRPRkVSTkFOREVaS0EuU0hBMjU2OnkrejF2NGM5SE5KcmFOeTNmcVJpLzBwRkJGbXBXNlV6ckxwTjBsbjVPZXc9Iiwic3ViIjoiRlRGTklVUi1OWkIyNTY5MS5GRVJOQU5ET0ZFUk5BTkRFWktBIiwiaWF0IjoxNjcxNzMzNTAyLCJleHAiOjE2NzE4MTk5MDJ9.KkHyr6nSKzSyH-xRH3-ZjCpJBdMvVk2r_QQBuWInZMMPbXM83aChOawdpbVe-g7nCTlZ3b4wpkA5sMFPVD2arMdVMSgQp0xNsuUiHeuZdFnYXCECGOKNaiFgkSxBi2CrlU_CyHyfONMVVXwywvw8BLiOyxacUdPLxbB0dXVjK7zBP4GE4V4Zbf_khfzZOJ_HJRy96zam-0xfgMcGd7ZqA_5nO6bwEP7hLitM4lMCWXSo9LvpFrkW5FQIvRUl2bu2d9_ch152_eTtg2LednPSTv6XQ52mPgwwlLwYVdvChhrladtKERgSA6Hp5-6dLOoPaCPYuZKIMu4pfakCY968kQ
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGVEZOSVVSLU5aQjI1NjkxLkZFUk5BTkRPRkVSTkFOREVaS0EuU0hBMjU2OnkrejF2NGM5SE5KcmFOeTNmcVJpLzBwRkJGbXBXNlV6ckxwTjBsbjVPZXc9Iiwic3ViIjoiRlRGTklVUi1OWkIyNTY5MS5GRVJOQU5ET0ZFUk5BTkRFWktBIiwiaWF0IjoxNjcxNzUxNzg3LCJleHAiOjE2NzE4MzgxODd9.BWYQQl8V7HlkBKXFh0bTV7oqY6tHFMXMcZW1TfpLsqR4LaR58dL8mT7bkAtS2EAs0Daj0c2rcNcXA9413POyZ40QsYxALNIw0deM8lisV95l8RoyrKesfYNcjulTQplJ484rR-5sY4drEJjSb0DExONOekdoLZHxorAmh7XGkX_9NN3zpkPeFRQoyyGhKgMWFcganHfHu0-Pm-qjKioENf53PxEepQydZ_h3jX0_gaXNVI4Hu1OPNNUoqjcD8RvhA_Vn-3CrC1_tdbhXfhYZCMpraqfJVyVmm0Wal2unAB4HG4D1l5ZSqlygVorimxknCuK8T9nHp3il3YzSK47WBg
+metaSortKey: -1671653778781.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

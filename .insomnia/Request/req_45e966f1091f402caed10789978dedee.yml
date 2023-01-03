@@ -1,0 +1,26 @@
+_id: req_45e966f1091f402caed10789978dedee
+type: Request
+parentId: fld_b834a44b1ffd4a84a2281b23d528893b
+modified: 1667333265593
+created: 1667333159655
+url: https://api.assemblyai.com/v2/transcript/{% response 'body',
+  'req_cb2b0ca19ea8441189d524fad33309c8', 'b64::JC5pZA==::46b', 'never', 60 %}
+name: 3 - Assembly.AI Transcript Retrieval
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_9b0b3a9d575141f0bec9ebc236ca03af
+    name: Authorization
+    value: 1e852ce61a5347c8a2ffdd3bc81e4a71
+    description: ""
+authentication: {}
+metaSortKey: -1666616129090
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

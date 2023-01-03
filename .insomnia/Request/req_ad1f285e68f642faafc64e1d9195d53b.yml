@@ -1,0 +1,25 @@
+_id: req_ad1f285e68f642faafc64e1d9195d53b
+type: Request
+parentId: fld_6bbf82503baa4503ba4dcf74252a441f
+modified: 1664997770366
+created: 1664807404371
+url: https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365244965750/reports/TransactionList?&start_date=2016-06-01&end_date=2022-12-31&payment_method=Check&minorversion=65
+name: Query Transactions in QuickBooks
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  clientId: AB1wZgdbd6fIIJ3vEMVHClav4itG6nsHs492oDdiKXvKlYtcQi
+  clientSecret: 1wGD49XOmyoPwNMlVNcS8kT7bXErykVklS8y0mJz
+metaSortKey: -1664807404371
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

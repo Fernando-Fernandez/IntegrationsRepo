@@ -1,0 +1,26 @@
+_id: req_151eab2b0470469bafabf25b1c4a135d
+type: Request
+parentId: fld_f430c72c9dc542d5887d2ec0dae489d0
+modified: 1667841922464
+created: 1666619943359
+url: https://dw.sunbeltmh.com/Customer?$filter=Changed gt 2022-10-24T00:08:58-05:00
+name: Customers FILTER
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: Sunbelt\SalesforceConnect
+  password: DataTranSF2022#!
+metaSortKey: -1666377338886.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

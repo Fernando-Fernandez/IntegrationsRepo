@@ -1,0 +1,45 @@
+_id: req_cf0f3ccab88f4ca2ab5b802cef3ace27
+type: Request
+parentId: fld_d97d91ba554f47bfaa4f5564ed0f598a
+modified: 1671752875516
+created: 1671659192237
+url: https://ftfniur-nzb25691.snowflakecomputing.com/api/v2/statements
+name: Query Request
+description: >-
+  snowsql -a ftfniur-nzb25691 -u FERNANDOFERNANDEZKA --private-key-path
+  ~/.ssh/rsa_key.p8 --generate-jwt
+
+
+  to get the JWT Bearer token
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"statement": "SELECT DATABASE_NAME, DATABASE_OWNER, RETENTION_TIME FROM DATABASES"
+    	, "timeout": 3
+    	, "database": "CRM_DB"
+    	, "schema": "INFORMATION_SCHEMA"
+    	, "warehouse": "COMPUTE_WH"
+    	, "role": "ACCOUNTADMIN" 
+    }
+parameters: []
+headers:
+  - id: pair_db4dc4eb7851479f91d9e4855128d737
+    name: X-Snowflake-Authorization-Token-Type
+    value: KEYPAIR_JWT
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_945da6c566a14dee81dc33a6b36a81d3
+authentication:
+  type: bearer
+  token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGVEZOSVVSLU5aQjI1NjkxLkZFUk5BTkRPRkVSTkFOREVaS0EuU0hBMjU2OnkrejF2NGM5SE5KcmFOeTNmcVJpLzBwRkJGbXBXNlV6ckxwTjBsbjVPZXc9Iiwic3ViIjoiRlRGTklVUi1OWkIyNTY5MS5GRVJOQU5ET0ZFUk5BTkRFWktBIiwiaWF0IjoxNjcxNzUxNzg3LCJleHAiOjE2NzE4MzgxODd9.BWYQQl8V7HlkBKXFh0bTV7oqY6tHFMXMcZW1TfpLsqR4LaR58dL8mT7bkAtS2EAs0Daj0c2rcNcXA9413POyZ40QsYxALNIw0deM8lisV95l8RoyrKesfYNcjulTQplJ484rR-5sY4drEJjSb0DExONOekdoLZHxorAmh7XGkX_9NN3zpkPeFRQoyyGhKgMWFcganHfHu0-Pm-qjKioENf53PxEepQydZ_h3jX0_gaXNVI4Hu1OPNNUoqjcD8RvhA_Vn-3CrC1_tdbhXfhYZCMpraqfJVyVmm0Wal2unAB4HG4D1l5ZSqlygVorimxknCuK8T9nHp3il3YzSK47WBg
+metaSortKey: -1671659192237
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

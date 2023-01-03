@@ -1,0 +1,32 @@
+_id: req_4156c58ef9dc4888993ce1761607f550
+type: Request
+parentId: fld_98a04692291945118f9c9248472721fb
+modified: 1665093770563
+created: 1665093364073
+url: https://api.twilio.com/2010-04-01/Accounts/ACaf1772564a3cae7d0cb3e78a57eb7cda/Messages
+name: Twilio get messages
+description: |-
+  [{name: '+12143938192 - Kelley Austin SMS', value: '12143938192'}, 
+  { name: '+17087669889 Homevestors Test Number', value: '17087669889'}]
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2cfe509738a3408ba3b5e8fc96e7022e
+    name: Authorization
+    value: Basic
+      QUNhZjE3NzI1NjRhM2NhZTdkMGNiM2U3OGE1N2ViN2NkYToyZjAzZGM0ZDhhZjM5OGE2YzI5YTA4YWMxYTJjYzQyNg==
+    description: ""
+  - id: pair_911f5d2164cf4e6982b2cba5be387f98
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1665003495936.6562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

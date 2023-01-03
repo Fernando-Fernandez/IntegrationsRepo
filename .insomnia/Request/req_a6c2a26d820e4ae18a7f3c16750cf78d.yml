@@ -1,0 +1,45 @@
+_id: req_a6c2a26d820e4ae18a7f3c16750cf78d
+type: Request
+parentId: fld_98a04692291945118f9c9248472721fb
+modified: 1666194702199
+created: 1665078903914
+url: https://api.twilio.com/2010-04-01/Accounts/ACaf1772564a3cae7d0cb3e78a57eb7cda/Messages.json
+name: Twilio send SMS
+description: |-
+  [{name: '+12143938192 - Kelley Austin SMS', value: '12143938192'}, 
+  { name: '+17087669889 Homevestors Test Number', value: '17087669889'}]
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_3fd44b413d46462987dfdd3a381e9d20
+      name: Body
+      value: Testing SMS from Twilio
+      description: ""
+    - id: pair_018fa9db8246405ca8d81d39d4971825
+      name: To
+      value: "19727350145"
+      description: ""
+    - id: pair_21d9ed15d6ab48d48e90903bdb7c9864
+      name: From
+      value: "12143938192"
+      description: ""
+parameters: []
+headers:
+  - id: pair_2cfe509738a3408ba3b5e8fc96e7022e
+    name: Authorization
+    value: Basic
+      QUNhZjE3NzI1NjRhM2NhZTdkMGNiM2U3OGE1N2ViN2NkYToyZjAzZGM0ZDhhZjM5OGE2YzI5YTA4YWMxYTJjYzQyNg==
+    description: ""
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_2eb7ce42746042559d31c8e0f47adac4
+authentication: {}
+metaSortKey: -1665078903914
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

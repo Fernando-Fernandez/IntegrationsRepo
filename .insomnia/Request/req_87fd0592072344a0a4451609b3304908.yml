@@ -1,0 +1,21 @@
+_id: req_87fd0592072344a0a4451609b3304908
+type: Request
+parentId: fld_6bbf82503baa4503ba4dcf74252a441f
+modified: 1664806597893
+created: 1664805504057
+url: https://kelleyaustin1--partial.sandbox.my.site.com/services/apexrest/Payment/1
+name: Quick Books GET webhook
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1664805504057
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

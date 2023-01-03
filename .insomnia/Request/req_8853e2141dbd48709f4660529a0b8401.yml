@@ -1,0 +1,35 @@
+_id: req_8853e2141dbd48709f4660529a0b8401
+type: Request
+parentId: fld_b834a44b1ffd4a84a2281b23d528893b
+modified: 1667332996509
+created: 1667332499690
+url: https://api.assemblyai.com/v2/upload
+name: 1 - Assembly.AI Upload
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /Users/kafernandofernandez/Documents/ProjectDocs/OpenEye/OpenEye_KA -
+    Community Project Kick-off (2022-10-25 11_05 GMT-5).mp4
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/octet-stream
+    id: pair_bb2e28bcd76d4f13b9429aa1e67a94db
+  - id: pair_9b0b3a9d575141f0bec9ebc236ca03af
+    name: Authorization
+    value: 1e852ce61a5347c8a2ffdd3bc81e4a71
+    description: ""
+  - id: pair_1e946324ebb441a98878653cff1e8211
+    name: Transfer-encoding
+    value: chunked
+    description: ""
+authentication: {}
+metaSortKey: -1667332499690
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

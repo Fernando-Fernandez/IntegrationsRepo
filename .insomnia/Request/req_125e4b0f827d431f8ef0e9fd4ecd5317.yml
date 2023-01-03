@@ -1,0 +1,28 @@
+_id: req_125e4b0f827d431f8ef0e9fd4ecd5317
+type: Request
+parentId: fld_98a04692291945118f9c9248472721fb
+modified: 1665093051000
+created: 1665092202951
+url: https://monitor.twilio.com/v1/Events?StartDate=2022-10-05T00:00:00Z&EndDate=2022-12-31T00:00:00Z&PageSize=20
+name: Twilio get Events
+description: |-
+  [{name: '+12143938192 - Kelley Austin SMS', value: '12143938192'}, 
+  { name: '+17087669889 Homevestors Test Number', value: '17087669889'}]
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2cfe509738a3408ba3b5e8fc96e7022e
+    name: Authorization
+    value: Basic
+      QUNhZjE3NzI1NjRhM2NhZTdkMGNiM2U3OGE1N2ViN2NkYToyZjAzZGM0ZDhhZjM5OGE2YzI5YTA4YWMxYTJjYzQyNg==
+    description: ""
+authentication: {}
+metaSortKey: -1665038686302.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
